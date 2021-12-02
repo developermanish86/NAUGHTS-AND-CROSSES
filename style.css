@@ -1,0 +1,70 @@
+
+body .restart {
+	background: #369966;
+	border: 1px #FFF;
+	padding: 5px 10px;
+	color: #FFF;
+	cursor: pointer;
+	font-family: "Roboto", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+body h1 {
+	font-weight: normal;
+}
+
+body table {
+	border-collapse: collapse;
+	width: 300px;
+	margin: 0 auto;
+}
+
+body table td {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #555;
+	cursor: pointer;
+}
+
+body .spin {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+body table td:before {
+	font-size: 3em;
+	line-height: 1;
+	font-weight: 800;
+}
+
+body table td.cross:before {
+	content: "X";
+	color: rgb(0, 0, 0);
+}
+
+body table td.circle:before {
+	content: "O";
+	color: rgb(0, 0, 0);
+}
+
+body .restart:hover {
+	opacity: 0.8;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	color: rgb(0, 0, 0);
+	text-shadow: -1px -1px rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+}
+
+.messages{
+	margin-top: 10px;
+}
+
+.check_winner{
+	display:none;
+}
